@@ -1,0 +1,10 @@
+.bands {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.bands-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 30px;
+}
