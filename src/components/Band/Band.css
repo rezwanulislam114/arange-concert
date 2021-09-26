@@ -1,8 +1,8 @@
 .band {
-    box-shadow: 5px 5px 15px rgb(211, 211, 211);
-    border-radius: 15px;
+    box-shadow: 5px 5px 15px #e6e6e6;
+    border-radius: 10px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 20px 15px;
     transition: .3s;
     background: white;
 }
@@ -10,10 +10,9 @@
     box-shadow: 8px 8px 15px rgb(163, 163, 163);
 }
 .band img {
-    width: 180px;
+    width: 100%;
     height: 180px;
     border-radius: 10px;
-    /* border-radius: 50%; */
 }
 .band-details h3 {
     margin: 0;
@@ -24,11 +23,11 @@
 }
 .booking-button {
     width: 60%;
-    padding: 10px;
-    background: rgb(64, 123, 233);
+    padding: 7px;
+    background: #ff962a;
     color: white;
     outline: none;
-    border: 2px solid rgb(64, 123, 233);
+    border: 2px solid #ff962a;
     border-radius: 7px;
     font-size: 18px;
     margin-top: 20px;
@@ -40,5 +39,5 @@
 }
 .booking-button:hover {
     background: white;
-    color: rgb(64, 123, 233);
+    color: #ff962a;
 }

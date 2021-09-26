@@ -1,6 +1,32 @@
 .booking{
     text-align: center;
+    background: blanchedalmond;
+    margin: 30px;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.booking-title {
+    color: #ff962a;
+    margin: 0;
 }
 .booking ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.booking ul li {
+    border: 2px solid #ff962a;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+.booked-bands {
+    font-size: 18px;
+}
+.total {
+    font-size: 28px;
+    /* color: #ff962a; */
+}
+.total span {
+    font-size: 18px;
 }

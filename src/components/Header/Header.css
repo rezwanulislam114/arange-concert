@@ -1,3 +1,18 @@
 .header {
     text-align: center;
+    background: #202020;
+    padding: 25px;
+    color: #eeeeee;
+}
+.title {
+    font-size: 44px;
+    font-family: cursive;
+    margin: 0;
+    color: #ff962a;
+}
+.header p {
+    margin-top: 5px;
+    color: lightgray;
+    font-family: monospace;
+    font-size: 16px;
 }
